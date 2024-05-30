@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPL2
 
 Clarity is an ad blocker for your WordPress admin. It hides obtrusive plugin and theme notifications 
-asking you to pay for upgraded version or to collect your personal data.
+asking you to pay for upgraded versions or to collect your personal data.
 
 == Description ==
 
@@ -32,13 +32,13 @@ Frequently Asked Questions for information about how to troubleshoot or add new 
 
 = Where is the settings page? =
 
-The plugin has no settings page, it works without any need to configure it. If you are still seeing some unwanted banners, see below.
+The plugin has no settings page; it works without any need to configure it. If you are still seeing some unwanted banners, see below.
 
 = A plugin I'm using is still showing banners or notifications! =
 
 Clarity works using a visual block list, similar to a browser ad blocker. Plugins have to be added manually.
 You can [create an issue](https://github.com/khromov/clarity/issues/new/choose) to ask for a plugin to be supported.
-You can also make a GitHub pull requst to the [official block list](https://github.com/khromov/clarity/blob/master/definitions.txt) - 
+You can also make a GitHub pull request to the [official block list](https://github.com/khromov/clarity/blob/master/definitions.txt) - 
 in that case, add an entry to the `definitions.txt` file with a CSS selector that hides the notification.
 
 = I am a plugin or theme author, how can I avoid being filtered? =
@@ -61,7 +61,7 @@ N/A
 
 == Changelog ==
 
-Clarity receives regular updates to its block list. The versioning standard is `<major-version>.<minor-version>.<date-of-latest-block-list-update>`. For example version `1.0.220201` means you are running version `1.0` of the plugin using the block list from february 1st, 2022.
+Clarity receives regular updates to its block list. The versioning standard is `<major-version>.<minor-version>.<date-of-latest-block-list-update>`. For example, version `1.0.220201` means you are running version `1.0` of the plugin using the block list from February 1st, 2022.
 
 You can always find the latest block list <a target="_blank" href="https://github.com/khromov/clarity/blob/master/definitions.txt">here</a>. You can see the latest changes to the block list <a target="_blank" href="https://github.com/khromov/clarity/commits/master/definitions.txt">here</a>.
 
